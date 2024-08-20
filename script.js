@@ -12,7 +12,7 @@ function toPlay(e) {
 
    e.target.classList.add("playing");
 
-   audio.currentTime = 0;
+   audio.currentTime = 0.1;
    audio.play();
 
    console.log(e.target);
